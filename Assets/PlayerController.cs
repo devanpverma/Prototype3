@@ -6,11 +6,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpForce = 500;
+    private float jumpForce = 1200;
+    private float gravityModifier = 2.5f;
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        Physics.gravity *= gravityModifier;
     }
 
     // Update is called once per frame
