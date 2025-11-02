@@ -495,7 +495,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: c14bb5ce28dbb7442a2f79d8b6a061ce, type: 3}
       propertyPath: m_Name
-      value: SimplePeople_Man_Business_Brown
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c14bb5ce28dbb7442a2f79d8b6a061ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -616,6 +616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a771e7e0dd64989b6a6d584142454e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: 0
 --- !u!1 &2014335011
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8543404267165946651, guid: 9b15a850c4ef14bee9e4bde041967ca6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.36
+      value: 13.01
       objectReference: {fileID: 0}
     - target: {fileID: 8543404267165946651, guid: 9b15a850c4ef14bee9e4bde041967ca6, type: 3}
       propertyPath: m_LocalPosition.y
